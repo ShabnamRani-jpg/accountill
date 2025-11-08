@@ -20,10 +20,10 @@ There are so many things coming! Stay tuned!!
   * [Troubleshooting](#troubleshooting)
   * [Maintainer](#maintainer)
   * [About the Maintainer](#about-the-maintainer)
-  * [License](#license)
+  
 
 ## Introduction
-Accountill is a full stack invoicing application made using the MERN stack (MongoDB, Express, React & Nodejs), specially designed for freelancers and small businesses, but can be used for almost any type of business need. With this application, you can send beautiful invoices, receipts, estimates, quotes, bills etc to your clients. Jump right off the [Live App](https://accountill.com/) and start sending invoice or download the entire [Source code](https://github.com/Panshak/accountill) and run it on your server. This project is continuously being improved. While efforts are made to ensure stability, please report any issues you encounter.
+Accountill is a full stack invoicing application made using the MERN stack (MongoDB, Express, React & Nodejs), specially designed for freelancers and small businesses, but can be used for almost any type of business need. With this application, you can send beautiful invoices, receipts, estimates, quotes, bills etc to your clients.continuously being improved. While efforts are made to ensure stability, please report any issues you encounter.
 
 ![Invoice Dashboard](https://res.cloudinary.com/almpo/image/upload/v1637314504/invoice/dashboard_c5z0is.png)
 
@@ -83,8 +83,6 @@ REACT_APP_URL = http://localhost:3000
 
 ```
 
-To get your Google ClientID for authentication, go to the [credential Page ](https://console.cloud.google.com/apis/credentials) (if you are new, then [create a new project first](https://console.cloud.google.com/projectcreate) and follow the following steps;
-
 - Click Create credentials > OAuth client ID.
 - Select the Web application type.
 - Name your OAuth client and click Create
@@ -110,8 +108,6 @@ SMTP_USER =
 SMTP_PASS = 
 
 ```
-
-Please follow [This tutorial](https://dev.to/dalalrohit/how-to-connect-to-mongodb-atlas-using-node-js-k9i) to create your mongoDB connection url, which you'll use as your DB_URL
 
 ```
 $ cd server
@@ -177,6 +173,3 @@ Originally developed by Panshak, this project is now actively maintained by Shab
 
 Shabnam Rani is a detail-oriented Business Analyst with 2+ years of experience in insurance and risk domains, skilled in translating complex business requirements into actionable deliverables. Proficient in analysis using SQL and Python scripting, Shabnam is dedicated to optimizing workflows and supporting strategic decisions.
 
-## License
-
-- This project is [MIT](https://github.com/Panshak/accountill/blob/master/LICENSE.md) licensed.
